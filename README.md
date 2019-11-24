@@ -1,7 +1,7 @@
-Passbase
+Passbase [Catalina Patch]
 ========
 
-Passbase is a free password manager built on [Keybase](https://keybase.io).
+Passbase is a free password manager built on [Keybase](https://keybase.io) originally created by [Oliver Ford](https://github.com/OJford)
 
 Generate long, random, secure passwords and store encrypted copies of them on your Keybase File System.
 
@@ -29,7 +29,7 @@ passbase read cool-new-website
 
 Get bored of cool-new-website:
 ```
-passbase delete cool-new-website
+passbase remove cool-new-website
 ```
 
 What sites do we have passwords for again?
@@ -68,16 +68,16 @@ Installation
 
 macOS users can use [Homebrew](http://brew.sh/):
 ```
-brew install OJFord/formulae/passbase
+brew install DOSputin/formulae/passbase_catalina
 ```
 
-or download [the latest release](https://github.com/OJFord/passbase/releases).
+or download [the latest release](https://github.com/DOSputin/passbase/releases).
 
 If you're building from source, you'll need Rust nightly (around November 2016 should be fine). PRs with easier installation on $your_platform are most welcome!
 
 Development
 -----------
-[![CI Status](https://travis-ci.com/OJFord/passbase.svg?token=SxsettpUmvjPeVFxsTig&branch=master)](https://travis-ci.com/OJFord/passbase)
+[![CI Status](https://travis-ci.com/DOSputin/passbase.svg?token=SxsettpUmvjPeVFxsTig&branch=master)](https://travis-ci.com/DOSputin/passbase)
 
 ### Tests
 
