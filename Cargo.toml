@@ -8,7 +8,7 @@ homepage = "https://github.com/OJFord/passbase"
 repository = "https://github.com/OJFord/passbase.git"
 
 [dependencies]
-dirs = "2.0"
+dirs = "^2.0"
 clap = "^2.14"
 lazy_static = "1.4.0"
 rand = "^0.3"
